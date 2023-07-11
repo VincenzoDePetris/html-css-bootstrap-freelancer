@@ -10,22 +10,63 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <div class="navbar d-flex flex-row bg-primary">
-        <div class="p-2 bg-secondary">Flex item 1</div>
-        <div class="p-2 bg-secondary">Flex item 3</div>
+      <div class="navbar d-flex flex-row bg-dark">
+        <div class="p-2 h3 text-light">START BOOTSTRAP</div>
+        <div class="d-sm-block d-md-none mx-3">
+          <i class="fa-solid fa-bars h3 text-light"></i>
+        </div>
+        <div class="p-2 d-sm-none d-md-flex">
+          <div class="mx-2 d-sm-none d-md-block">
+            <a href="#" class="text-decoration-none link-light">PORTFOLIO</a>
+          </div>
+          <div class="mx-2 d-sm-none d-md-block">
+            <a href="#" class="text-decoration-none link-light">ABOUT</a>
+          </div>
+          <div class="mx-2 d-sm-none d-md-block">
+            <a href="#" class="text-decoration-none link-light">CONTACT</a>
+          </div>
+        </div>
       </div>
     </header>
     <!-- main -->
     <main class="container-fluid">
       <div>
-        <div class="row justify-content-center bg-success py-4">
-          <div class="col-10 bg-secondary height rounded-4 col-md-10"></div>
+        <div class="row justify-content-center bg-success bg-opacity-50 py-4">
+          <div class="col-10 height rounded-4 col-md-10 text-center">
+            <img
+              class="w-25 my-5"
+              src="./img/avatar.svg"
+              class="card-img-top"
+              alt="avatar"
+            />
+
+            <p class="text-light h1">START BOOTSTRAP</p>
+            <div
+              class="d-flex justify-content-center align-items-center altezza-stella"
+            >
+              <div class="border border-2 striscia border-light"></div>
+              <div>
+                <i class="fa-solid fa-star m-2 fs-3 text-light"></i>
+              </div>
+              <div class="border border-2 striscia border-light"></div>
+            </div>
+            <p class="text-light">
+              GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+            </p>
+          </div>
         </div>
       </div>
       <!-- card section -->
