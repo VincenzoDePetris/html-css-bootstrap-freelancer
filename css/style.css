@@ -14,3 +14,12 @@ img {
 .paragrafo {
   width: 50%;
 }
+
+footer .col-10 > div {
+  width: 30%;
+}
+
+.final-p {
+  font-size: 0.7rem;
+  background-color: #37474f;
+}
